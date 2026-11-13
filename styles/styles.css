@@ -1,6 +1,14 @@
+main {
+    max-width: 840px;
+}
+
+body {
+    background-color: rgb(215, 225, 232);
+}
+
 nav {
-    background-color: darkblue;
-    padding: 10px;
+    background-color: rgb(43, 85, 125);
+    padding: 20px;
 }
 
 nav a {
@@ -10,17 +18,40 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: rgb(34, 51, 36);
 }
 
-img {
-    width: 150px;
-    height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+.profile-box {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0/0.2);
+    padding: 1rem;
+    background-color: rgb(215, 225, 232);
+    color: #333;
+    text-align: center;
 }
 
 p {
-    padding: 10px;
+    padding: 0;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0/0.2);
+    padding: 1rem;
+    background-color: rgb(215, 225, 232);
+    color: #333;
+    text-align: center;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
 }
