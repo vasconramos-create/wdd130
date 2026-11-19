@@ -2,6 +2,10 @@ main {
     max-width: 840px;
 }
 
+:root {
+    --background-color: rgb(215, 225, 232);
+}
+
 body {
     background-color: rgb(215, 225, 232);
 }
@@ -26,8 +30,7 @@ h1 {
     margin: 1rem;
     border: 1px solid rgb(0 0 0/0.2);
     padding: 1rem;
-    background-color: rgb(215, 225, 232);
-    color: #333;
+    background-color: var(--background-color) color: #333;
     text-align: center;
 }
 
@@ -40,8 +43,7 @@ aside {
     margin: 1rem;
     border: 1px solid rgb(0 0 0/0.2);
     padding: 1rem;
-    background-color: rgb(215, 225, 232);
-    color: #333;
+    background-color: var(--background-color) color: #333;
     text-align: center;
 }
 
